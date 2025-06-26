@@ -34,7 +34,6 @@
 pkg install git -y && pkg install python -y
 ````
 
-
  ### (Install The Dependencies)
  
 ````bash
