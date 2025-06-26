@@ -48,6 +48,13 @@ python bomber.py
 
 ```shell script
 apk add git
-&& apk add python3 && apk add py3-pip && apk add ruby && gem install toilet && git clone git clone https://github.com/MEHAJIBSHA/TBomb
-&& cd TBomb && pip3 install -r requirements.txt && chmod +x && TBomb.sh && python bomber.py
+apk add python3
+apk add py3-pip
+apk add ruby
+gem install toilet
+git clone git clone https://github.com/MEHAJIBSHA/TBomb
+cd TBomb
+pip3 install -r requirements.txt
+chmod +xTBomb.sh
+python bomber.py
 ```
