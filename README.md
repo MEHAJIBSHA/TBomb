@@ -39,7 +39,7 @@ pkg install git -y && pkg install python -y
  
 ````bash
 git clone https://github.com/MEHAJIBSHA/TBomb
-&& cd TBomb && TBomb.sh && TBomb.sh
+&& cd TBomb && TBomb.sh && python bomber.py
 ````
 
 #### (For iSH)
@@ -47,5 +47,5 @@ git clone https://github.com/MEHAJIBSHA/TBomb
 ```shell script
 apk add git
 && apk add python3 && apk add py3-pip && apk add ruby && gem install toilet && git clone git clone https://github.com/MEHAJIBSHA/TBomb
-&& cd TBomb && pip3 install -r requirements.txt && chmod +x && TBomb.sh && TBomb.sh
+&& cd TBomb && pip3 install -r requirements.txt && chmod +x && TBomb.sh && python bomber.py
 ```
