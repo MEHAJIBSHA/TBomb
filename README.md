@@ -31,14 +31,17 @@
 ### (Install Termux)
  
 ````bash
-pkg install git -y && pkg install python -y
+pkg install git -y
+pkg install python -y
 ````
 
  ### (Install The Dependencies)
  
 ````bash
 git clone https://github.com/MEHAJIBSHA/TBomb
-&& cd TBomb && TBomb.sh && python bomber.py
+cd TBomb
+TBomb.sh
+python bomber.py
 ````
 
 #### (For iSH)
